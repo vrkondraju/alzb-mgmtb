@@ -14,7 +14,7 @@ param landingZonesCorpConfig = {
   managementGroupIntermediateRootName: 'alz'
   managementGroupDisplayName: 'Corp'
   managementGroupDoNotEnforcePolicyAssignments: []
-  managementGroupExcludedPolicyAssignments: []
+  managementGroupExcludedPolicyAssignments: ['Deploy-Private-DNS-Zones']
   customerRbacRoleDefs: []
   customerRbacRoleAssignments: []
   customerPolicyDefs: []
